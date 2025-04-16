@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: rgba(72, 103, 23, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+#title-1{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+    font-style:normal;
+    background-color: transparent;
+    text-decoration:none;
+
+}
+
+header nav ul li{
+    display:inline-block;
+    padding: 10px;
+    background-color: transparent;
+    text-decoration:none
+
+}
+
+.button {
+    background-color: #04bc9d; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding for button size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #121515; /* Darker background on hover */
+}
+
+#title-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+      font-style:normal;
+      background-color: transparent;
+      text-decoration:none;
+}
+
+footer nav ul li{
+    display:inline-block;
+    padding: 10px;
+    background-color: transparent;
+    text-decoration:none
+}
