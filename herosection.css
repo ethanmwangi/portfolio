@@ -14,6 +14,7 @@ body, html {
     text-align: center; /* Center text */
     color: white; /* Text color */
     position: relative; /* Positioning context for overlay */
+    
 }
 
 .hero-section::before {
@@ -30,6 +31,7 @@ body, html {
 .hero-content {
     position: relative; /* Positioning context for text */
     z-index: 2; /* Place text above overlay */
+    text-decoration: aliceblue;
 }
 
 .cta-button {
@@ -42,5 +44,78 @@ body, html {
 }
 
 .cta-button:hover {
-    background-color: #032317; /* Darker shade on hover */
+    background-color: #050505; /* Darker shade on hover */
 }
+
+.button {
+    background-color: #04bc9d; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Padding for button size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.925); /* Darker background on hover */
+}
+
+/* #footer-nav{
+    display:flex; /* Use flexbox for centering */
+    justify-content:flex-start; /* Center horizontally */
+    align-items:flex-start; /* Center vertically */
+    padding: 10px; /* Padding for footer nav */
+    font-style: normal; /* Normal font style */
+    background-color:rgba(70, 137, 141, 0.973); /* Semi-transparent overlay */
+    text-decoration: none; /* Remove underline */
+}
+
+#footer-nav ul li {
+    display:inline; /* Display list items inline */
+    padding: 25px; /* Padding for list items */
+    background-color: transparent; /* Transparent background */
+    text-decoration: none; /* Remove underline */
+}
+
+p&copy {
+    font-size: 20px; /* Font size */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Margin top */
+}
+
+.subscribe-section {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-left: auto; /* Push the section to the right */
+}
+
+.subscribe-section form {
+    display: flex; /* Use flexbox for form layout */
+    align-items: center; /* Center items vertically */
+}
+
+.subscribe-section label {
+    margin-right: 10px; /* Space between label and input */
+    color: white; /* Label text color */
+}
+
+.subscribe-section input[type="email"] {
+    padding: 10px; /* Padding for input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.subscribe-section button {
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #04bc9d; /* Button color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.subscribe-section button:hover {
+    background-color: #050505; /* Darker shade on hover */
+} */

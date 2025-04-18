@@ -1,40 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
-    <link rel="stylesheet" href="contact.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contacts</title>
+  <link rel="stylesheet" href="contact.css" />
 </head>
 <body>
-    <header>
-        <h1>Contacts</h1>
-        <nav id="header-nav">
-            <ul>
-                <li><a href="index.html "class="button">Home</a></li>
-                <li><a href="about.html" class="button">about me</a></li>
-                <li><a href="#" class="button">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <p>
-        <strong>
-Email : ethan.mwangi20067@gmail.com 
-        </strong>
-    </p>
-    <br>
-    <p>
-        <strong>
-Mobile-number:0757751205
-        </strong>
-    </p>
-<br>
-    <p>
-        <strong>
-Instagram Handle : ethan.muani
-        </strong>
-    </p>
+  <header>
+    <nav id="header-nav">
+      <ul>
+        <li><a href="index.html" class="button">Description</a></li>
+        <li><a href="about.html" class="button">About</a></li>
+        <li><a href="#" class="button">Contacts</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Corrected heading -->
+  <h1 class="contacts-heading">
+    <i><u>My Contacts</u></i>
+  </h1>
+
+  <!-- One card container wrapping all three cards -->
+  <div class="card-container">
+    <div class="card">
+      <img src="e8fe2516-8fb7-433f-bf3f-2f6df280b4dc.jpg" alt="Instagram image" />
+      <div class="card-content">
+        <h3>Instagram</h3>
+        <p>IG handle: @ethan.muani</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="Email icon sign symbol logo.jpg" alt="Email image" />
+      <div class="card-content">
+        <h3>Email</h3>
+        <p>Email: ethan.mwangi20067@gmail.com</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="Glyphs Silhouette PNG Transparent, Telephone Glyph Icon Vector, Telephone Icons, Telephone, Phone PNG Image For Free Download.jpg" alt="Phone image" />
+      <div class="card-content">
+        <h3>Phone Number</h3>
+        <p>Phone Number: 0757751206</p>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div id="footer-nav">
+        <div class="footer-left">
+            <ul class="footer-links">
+                <li><a href="index.html" class="button"><b>Description</b></a></li>
+                <li><a href="about.html" class="button">About</a></li>
+                <li><a href="contact.html" class="button">Contacts</a></li>
+            </ul>
+            <p class="copyright">
+                &copy; 2025 Ethan Mwangi. All rights reserved.
+            </p>
+        </div>
+
+        <div class="subscribe-section">
+            <form action="#" method="post">
+                <label for="email">Subscribe to my channel:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

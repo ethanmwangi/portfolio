@@ -1,12 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
+*{margin: 0;
+     padding: 0;}
+    
 body{
-    background-color: rgba(72, 103, 23, 0.5);
+    background-color:rgba(72, 103, 23, 0.5);
     align-items: center;
+    background-image: url('japanese\ tree.png');
+    justify-content: center;
+    background-size: 68%;
+    background-position:left;
+    box-sizing: border-box;
 } 
 #profile-pic {
   width: 100px;
@@ -56,7 +58,7 @@ header nav ul li{
 
 p {
     font-size: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 20px;
     background-color: transparent
@@ -65,14 +67,14 @@ p {
 
 p strong {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     background-color: transparent;
 }
 
 p em {
     text-decoration: none;
-    color: white;
+    color: #0a0a0a;
     font-size: 20px;
     background-color: transparent;
 }
@@ -90,32 +92,92 @@ footer nav ul li :hover{
     
 }
 
-#footer-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-      font-style:normal;
-      background-color: transparent;
-      text-decoration:none;
-    }
+.content {
+    max-width: 800px; /* Limit the width of the content */
+    margin: 0 auto; /* Center the content */
+    padding: 20px; /* Add padding around the content */
+}
 
-    footer nav ul li{
-        display:inline-block;
-        padding: 10px;
-        color: rgba(254, 255, 253, 0.5) ;
-        background-color: transparent;
-        text-decoration:none
-    }
+h2 {
+    color: #0b0b0b; /* Set the color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+}
 
-    .button {
-        background-color: #04bc9d; /* Beige background for buttons */
-        color: white; /* Change this to your desired text color */
-        text-decoration: none; /* Remove underline */
-        padding: 10px 20px; /* Padding for button size */
-        border-radius: 5px; /* Rounded corners */
-        transition: background-color 0.3s ease; /* Smooth transition for hover effect */
-    }
+ul {
+    list-style-type: disc; /* Use bullet points */
+    margin-left: 20px; /* Indent the list */
+    color: #0a0a0a; /* Set list item color */
+}
 
-
+blockquote {
+    font-style: italic; /* Italicize the quote */
+    color: #555; /* Set a different color for the quote */
+    border-left: 4px solid #04bc9d; /* Add a left border for emphasis */
+    padding-left: 10px; /* Space between the border and text */
+    margin: 20px 0; /* Space above and below the quote */
+}
     
+h1 {
+    text-align: center; /* Center the text */
+    color: white; /* Set the text color */
+    margin-top: 20px; /* Add some space above the heading */
+}
+#footer-nav{
+    display:flex; /* Use flexbox for centering */
+    justify-content:space-between; /* Center horizontally */
+    align-items:flex-start; /* Center vertically */
+    padding: 10px; /* Padding for footer nav */
+    font-style: normal; /* Normal font style */
+    background-color:rgba(70, 137, 141, 0.973); /* Semi-transparent overlay */
+    text-decoration: none; /* Remove underline */
+}
+
+#footer-nav ul li {
+    display:inline; /* Display list items inline */
+    padding: 25px; /* Padding for list items */
+    background-color: transparent; /* Transparent background */
+    text-decoration: none; /* Remove underline */
+}
+
+p&copy {
+    font-size: 20px; /* Font size */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Margin top */
+}
+
+.subscribe-section {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-left: auto; /* Push the section to the right */
+}
+
+.subscribe-section form {
+    display: flex; /* Use flexbox for form layout */
+    align-items: center; /* Center items vertically */
+}
+
+.subscribe-section label {
+    margin-right: 10px; /* Space between label and input */
+    color: white; /* Label text color */
+}
+
+.subscribe-section input[type="email"] {
+    padding: 10px; /* Padding for input */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Space between input and button */
+}
+
+.subscribe-section button {
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #04bc9d; /* Button color */
+    color: white; /* Button text color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.subscribe-section button:hover {
+    background-color: #050505; /* Darker shade on hover */
+}
